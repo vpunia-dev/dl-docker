@@ -3,8 +3,8 @@ This is a sample project for deep learning development, analysis and deployment.
 The directory structure inside sample project allows experimentation/deployment using deep learning frameworks and various python libraries.
 
 ## Requirements
-1. Docker: [Installation instructions(pending)](https://github.com/vpunia-dev/dl-docker/wiki/Docker-installation-instructions)
-2. nvidia-docker2: [Installation instructions(pending)](https://github.com/vpunia-dev/dl-docker/wiki/Nvidia-Container-Toolkit-installation)
+1. Docker: [Installation instructions](https://github.com/vpunia-dev/dl-docker/wiki/Docker-&-Nvidia-container-toolkit-installation-instructions)
+2. nvidia-docker2: [Installation instructions](https://github.com/vpunia-dev/dl-docker/wiki/Docker-&-Nvidia-container-toolkit-installation-instructions)
 
 ## Setup Instructions
 ##### Clone this repo
