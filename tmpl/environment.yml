@@ -1,10 +1,9 @@
-name: ${PYTHON_VENV_NAME} 
+name: ${PYTHON_VENV_NAME}
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=${PYTHON_VERSION}
-  - gdcm
   - jupyter
   - pip
   # - pip:

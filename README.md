@@ -3,13 +3,13 @@ This is a sample project for deep learning development, analysis and deployment.
 The directory structure inside sample project allows experimentation/deployment using deep learning frameworks and various python libraries.
 
 ## Requirements
-1. Docker: [Installation instructions](https://docs.docker.com/engine/install/ubuntu/)
-2. nvidia-docker2: [Installation instructions](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+1. Docker: [Installation instructions(pending)](https://github.com/vpunia-dev/dl-docker/wiki/Docker-installation-instructions)
+2. nvidia-docker2: [Installation instructions(pending)](https://github.com/vpunia-dev/dl-docker/wiki/Nvidia-Container-Toolkit-installation)
 
 ## Setup Instructions
 ##### Clone this repo
 ```
-git clone https://vpunia@bitbucket.org/endimension/docker-python.git
+git clone https://github.com/vpunia-dev/dl-docker.git
 ```
 ##### Go inside repo and update the setup.sh variables.
 ```
@@ -18,7 +18,7 @@ export DOCKER_USER="DEMO_USER"  # user inside docker container
 export PYTHON_VENV_NAME="DEMO_ENV" # conda virtual env name for python
 export HOST_PORT="8888"           # application port on host. applciation will be accessed using this port
 export DOCKER_PORT="8888" # application port inside docker 
-export PJ_HOST_DIR="/home/dobby/projects/endimension/templates/docker_python/sample_project" # project dir on host machine
+export PJ_HOST_DIR="/project/path/on/local/system" # project dir on host machine
 export PJ_DOCKER_DIR="/projects/sample_project" # project dir on docker.
 ```
 ##### Update ./tmpl/requirements.txt to change required python packages. 
