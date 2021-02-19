@@ -1,0 +1,10 @@
+name: ${PYTHON_VENV_NAME}
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=${PYTHON_VERSION}
+  - jupyter
+  - pip
+  # - pip:
+  #   - -r /requirements.txt
